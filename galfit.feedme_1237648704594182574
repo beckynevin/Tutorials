@@ -1,0 +1,46 @@
+===============================================================================
+# IMAGE and GALFIT CONTROL PARAMETERS
+A) out_convolved_1237648704594182574.fits            # Input data image (FITS file)
+B) out_1237648704594182574.fits       # Output data image block
+C) out_sigma_convolved_1237648704594182574.fits                # Sigma image name (made from data i$
+D) none        # Input PSF image and (optional) diffusion kernel
+E) none                   # PSF fine sampling factor relative to data
+F) none                # Bad pixel mask (FITS image or ASCII coord list)
+G) none                # File with parameter constraints (ASCII file)
+H) 1    253   1    253   # Image region to fit (xmin xmax ymin ymax)
+I) 253 253          # Size of the convolution box (x y)
+J) 26.563 # Magnitude photometric zeropoint
+K) 0.5  0.5        # Plate scale (dx dy)    [arcsec per pixel]
+O) regular             # Display type (regular, curses, both)
+P) 0                   # Choose: 0=optimize, 1=model, 2=imgblock, 3=subcomps
+# Object number: 1 
+ 0) sersic                 #  object type
+ 1) 126.855 126.8753  1 1  #  position x, y
+ 3) 15.38191040303383    1          #  Integrated magnitude
+ 4) 18.077      1          #  R_e (half-light radius)   [pix]
+ 5) 2      1          #  Sersic index n (de Vaucouleurs n=4)
+ 6) 0.0000      0          #     -----
+ 7) 0.0000      0          #     -----
+ 8) 0.0000      0          #     -----
+ 9) 0.6032086149112685      1          #  axis ratio (b/a)
+10) 44.67    1          #  position angle (PA) [deg: Up=0, Left=90]
+ Z) 0                      #  output option (0 = resid., 1 = Dont subtract)
+# Object number: 2 
+ 0) sersic                 #  object type
+ 1) 207.739 158.4461  1 1  #  position x, y
+ 3) 17.470505598717725    1          #  Integrated magnitude
+ 4) 1.547      1          #  R_e (half-light radius)   [pix]
+ 5) 4      1          #  Sersic index n (de Vaucouleurs n=4)
+ 6) 0.0000      0          #     -----
+ 7) 0.0000      0          #     -----
+ 8) 0.0000      0          #     -----
+ 9) 0.9596309111880046      1          #  axis ratio (b/a)
+10) 120.46000000000001    1          #  position angle (PA) [deg: Up=0, Left=90]
+ Z) 0                      #  output option (0 = resid., 1 = Dont subtract)
+# Object number: 4
+ 0) sky                    #  object type
+ 1) 5.847369      1          #  sky background at center of fitting region [ADU$
+ 2) 0.0000      0          #  dsky/dx (sky gradient in x)
+ 3) 0.0000      0          #  dsky/dy (sky gradient in y)
+ Z) 0                      #  output option (0 = resid., 1 = Dont subtract)
+================================================================================
